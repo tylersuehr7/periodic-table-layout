@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="columnCount" format="integer"/>
+    <attr name="rowCount" format="integer"/>
+    <attr name="drawGrid" format="boolean"/>
+
+
+    <declare-styleable name="TableLayout">
+        <attr name="columnCount"/>
+        <attr name="rowCount"/>
+        <attr name="drawGrid"/>
+    </declare-styleable>
+    
+    <declare-styleable name="PeriodicTableLayout">
+        <attr name="drawGrid"/>
+    </declare-styleable>
+</resources>
